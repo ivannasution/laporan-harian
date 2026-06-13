@@ -1,4 +1,4 @@
-# 📓 Laporan Harian Kinan
+# 📓 Laporan Harian
 
 Aplikasi pencatatan harian pembelajaran anak — single-file HTML, bisa diinstall di HP sebagai Progressive Web App (PWA).
 
@@ -73,7 +73,7 @@ Dibuat untuk mencatat laporan harian homeschooling: topik, proses/anekdot, ratin
 ## ⚙️ Setup Google Sheets (per anak, sekali saja)
 
 ### 1. Buat Google Sheets baru
-Buka [sheets.google.com](https://sheets.google.com) → buat spreadsheet baru, beri nama misalnya `Laporan Harian Kinan`.
+Buka [sheets.google.com](https://sheets.google.com) → buat spreadsheet baru, beri nama misalnya `Laporan Harian`.
 
 ### 2. Buka Apps Script
 **Extensions → Apps Script** → hapus kode default.
@@ -103,7 +103,7 @@ Setiap mata pelajaran mendapat satu tab tersendiri. Tab dibuat otomatis dengan f
 
 | Kelas | Semester | Sesi | Tanggal | Judul | Proses/Anekdot | Enjoy | Easy |
 |-------|----------|------|---------|-------|----------------|-------|------|
-| Kelas 3 | Semester 2 | 1 | 14 Juni 2026 | Bilangan bulat | Kinan langsung paham... | 5 | 4 |
+| Kelas 3 | Semester 2 | 1 | 14 Juni 2026 | Bilangan bulat | A langsung paham... | 5 | 4 |
 
 ---
 
@@ -134,7 +134,7 @@ Mata pelajaran baru bisa ditambahkan langsung dari modal profil.
 | v1 | Versi awal — entry harian, output Telegram, Google Sheets, multi-profil |
 | v2 | PWA: manifest + install banner + SW (blob — kemudian diganti) |
 | v3 | SW dipindah ke `sw.js` eksternal, manifest tetap inline |
-| v4 | GSheet URL per profil anak, Apps Script dengan format header Kinan |
+| v4 | GSheet URL per profil anak, Apps Script dengan format header |
 
 ### Keterbatasan
 - Service Worker hanya aktif di `https://` — tidak aktif saat dibuka via `file://`
